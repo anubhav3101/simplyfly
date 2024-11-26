@@ -1,0 +1,31 @@
+2024-11-26 12:42:27 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.1.Final
+2024-11-26 12:42:27 [restartedMain] INFO  : Starting SimplyflyApplication using Java 17.0.13 with PID 16552 (C:\Users\shukl\Downloads\simplyfly\target\classes started by shukl in C:\Users\shukl\Downloads\simplyfly)
+2024-11-26 12:42:27 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-11-26 12:42:27 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-26 12:42:27 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-26 12:42:31 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-26 12:42:31 [restartedMain] INFO  : Finished Spring Data repository scanning in 307 ms. Found 5 JPA repository interfaces.
+2024-11-26 12:42:35 [restartedMain] INFO  : Tomcat initialized with port 8081 (http)
+2024-11-26 12:42:35 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8081"]
+2024-11-26 12:42:36 [restartedMain] INFO  : Starting service [Tomcat]
+2024-11-26 12:42:36 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-26 12:42:36 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2024-11-26 12:42:36 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 8392 ms
+2024-11-26 12:42:37 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-26 12:42:37 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-26 12:42:38 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2024-11-26 12:42:40 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-26 12:42:40 [restartedMain] INFO  : HikariPool-1 - Starting...
+2024-11-26 12:42:41 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64602baa
+2024-11-26 12:42:41 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2024-11-26 12:42:42 [restartedMain] WARN  : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-26 12:42:42 [restartedMain] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-26 12:42:46 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-26 12:42:47 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-26 12:42:48 [restartedMain] INFO  : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-26 12:42:49 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-11-26 12:42:50 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-26 12:42:52 [restartedMain] INFO  : LiveReload server is running on port 35729
+2024-11-26 12:42:52 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8081"]
+2024-11-26 12:42:52 [restartedMain] INFO  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-26 12:42:52 [restartedMain] INFO  : Started SimplyflyApplication in 26.53 seconds (process running for 30.118)
